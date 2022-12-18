@@ -3,7 +3,7 @@ CREATE DATABASE OnlineshopXY;
 USE OnlineshopXY;
 
 CREATE TABLE sortiment(
-	artikelnummer INT PRIMARY KEY AUTO_INCREMENT,
+    artikelnummer INT PRIMARY KEY AUTO_INCREMENT,
     produkttyp VARCHAR(20),
     preis INT,
     verfuegbar INT
